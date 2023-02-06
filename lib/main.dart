@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
         operator = btnValue;
         firstNum = int.parse(textDisplay);
         textDisplay = "";
-      } else if (btnValue == "X") {
+      } else if (btnValue == "x") {
         operator = btnValue;
         firstNum = int.parse(textDisplay);
         textDisplay = "";
@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
           result = firstNum - secondNum;
         } else if (operator == "/") {
           result = firstNum ~/ secondNum;
-        } else if (operator == "X") {
+        } else if (operator == "x") {
           result = firstNum * secondNum;
         }
         textDisplay = result.toString();
@@ -178,7 +178,7 @@ class _MyAppState extends State<MyApp> {
                   callback: calculate,
                 ),
                 CustomButton(
-                  text: "X",
+                  text: "x",
                   btnColor: 0xff4f79dd,
                   callback: calculate,
                 ),
